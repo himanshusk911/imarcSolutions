@@ -1,0 +1,60 @@
+.container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.title {
+  color:#0f0870;
+  text-align:left;
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.form {
+  font-size: larger;
+  text-align: left;
+}
+
+.inputWrapper {
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  color: grey;
+  font-size: 18px;
+  width: 20px;
+  margin-right: 10px; /* Add spacing between label and input field */
+}
+
+.inputField {
+  font-size: 30px;
+  padding: 8px;
+  width: calc(100% - 20px); /* Adjust input field width to accommodate label width */
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.submitBtn {
+  background-color: #0f0870;
+  color: white;
+  width: 50%;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.invalid {
+  border-color: red;
+}
